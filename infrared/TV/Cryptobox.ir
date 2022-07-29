@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: DC 23 00 00
+# 
+name: Channel_up
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: AC 53 00 00
+# 
+name: Channel_down
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: A5 5A 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: A1 5E 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: B8 47 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 9C 63 00 00
